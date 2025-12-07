@@ -197,17 +197,33 @@ body {
 }
 
 .search_bar {
-    background-color: transparent;
+    background: transparent !important;
     border: none;
     outline: none;
     font-size: 15px;
     color: #f5f7ff;
     width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.search_bar:focus {
+    background: transparent !important;
 }
 
 .search_bar::placeholder {
     color: #7480a0;
 }
+
+.search_bar:-webkit-autofill,
+.search_bar:-webkit-autofill:hover,
+.search_bar:-webkit-autofill:focus,
+.search_bar:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
+    box-shadow: 0 0 0 1000px transparent inset !important;
+    -webkit-text-fill-color: #f5f7ff !important;
+}
+
 
 .button {
     color: white;
