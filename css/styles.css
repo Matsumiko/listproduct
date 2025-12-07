@@ -197,7 +197,7 @@ body {
 }
 
 .search_bar {
-    background: transparent !important;
+    background-color: rgba(8, 12, 30, 0.95);
     border: none;
     outline: none;
     font-size: 15px;
@@ -208,7 +208,7 @@ body {
 }
 
 .search_bar:focus {
-    background: transparent !important;
+    background-color: rgba(8, 12, 30, 0.95);
 }
 
 .search_bar::placeholder {
@@ -219,9 +219,9 @@ body {
 .search_bar:-webkit-autofill:hover,
 .search_bar:-webkit-autofill:focus,
 .search_bar:-webkit-autofill:active {
-    -webkit-box-shadow: 0 0 0 1000px transparent inset !important;
-    box-shadow: 0 0 0 1000px transparent inset !important;
     -webkit-text-fill-color: #f5f7ff !important;
+    -webkit-box-shadow: 0 0 0 1000px rgba(8, 12, 30, 0.95) inset !important;
+    box-shadow: 0 0 0 1000px rgba(8, 12, 30, 0.95) inset !important;
 }
 
 
