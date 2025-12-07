@@ -197,33 +197,17 @@ body {
 }
 
 .search_bar {
-    background-color: rgba(8, 12, 30, 0.95);
+    background-color: transparent;
     border: none;
     outline: none;
     font-size: 15px;
     color: #f5f7ff;
     width: 100%;
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-.search_bar:focus {
-    background-color: rgba(8, 12, 30, 0.95);
 }
 
 .search_bar::placeholder {
     color: #7480a0;
 }
-
-.search_bar:-webkit-autofill,
-.search_bar:-webkit-autofill:hover,
-.search_bar:-webkit-autofill:focus,
-.search_bar:-webkit-autofill:active {
-    -webkit-text-fill-color: #f5f7ff !important;
-    -webkit-box-shadow: 0 0 0 1000px rgba(8, 12, 30, 0.95) inset !important;
-    box-shadow: 0 0 0 1000px rgba(8, 12, 30, 0.95) inset !important;
-}
-
 
 .button {
     color: white;
